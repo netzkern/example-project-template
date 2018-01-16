@@ -1,2 +1,2 @@
-# example-project-template
+# Projekt [project_name]
 example project template
