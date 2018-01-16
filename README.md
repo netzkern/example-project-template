@@ -1,2 +1,2 @@
-# Projekt (% project_name %)
+# Projekt (% .project_name %)
 example project template
