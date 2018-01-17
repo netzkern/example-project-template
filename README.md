@@ -1,2 +1,2 @@
-# Projekt [[ .ProjectName ]]
+# Projekt [[ ProjectssName ]]
 example project template
