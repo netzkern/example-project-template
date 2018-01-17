@@ -1,2 +1,6 @@
-# Projekt butler{ .ProjectName }
-example project template
+# Projekt butler{ .Project.Name }
+
+butler{ .Project.Description }
+
+Date: butler{ .Date }
+Year: butler{ .Year }
