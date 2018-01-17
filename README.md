@@ -4,4 +4,5 @@ butler{ .Project.Description }
 
 Date: butler{ .Date }
 Year: butler{ .Year }
-Custom: butler{ .Vars.foo }
+Company: butler{ .Vars.company }
+Email: butler{ .Vars.email }
