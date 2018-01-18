@@ -1,1 +1,5 @@
-{{block "name" pipeline}} huuw {{end}}
+{{ define "a" }} 
+Template A includes Template B
+{{ block "b" .}} Template B {{ end }}
+Template A ends
+{{ end }}
