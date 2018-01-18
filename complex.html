@@ -1,5 +1,5 @@
-{{ define "a" }} 
+butler{ define "a" } 
 Template A includes Template B
-{{ block "b" .}} Template B {{ end }}
+butler{ block "b" .} Template B butler{ end }
 Template A ends
-{{ end }}
+butler{ end }
