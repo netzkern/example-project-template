@@ -1,5 +1,5 @@
 {{define "title"}}About{{end}}
 {{define "content"}}This is the About page.{{end}}
 
-<title>{{template "title" .}}</title>
-<body>{{template "content" .}}</body>
+<title>{{block "title" .}}Default Title{{end}}</title>
+<body>{{block "content" .}}This is the default body.{{end}}</body>
