@@ -9,11 +9,15 @@ butler{ .Project.Name }
 ```
 <b>Default variables</b>
 <br>
+butler{ .Project.Name }
+<br>
 butler{ .Project.Description }
 <br>
 Date: butler{ .Date }
 <br>
 Year: butler{ .Year }
+<br>
+<b>Custom variables</b>
 <br>
 Company: butler{ .Vars.company }
 <br>
