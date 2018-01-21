@@ -1,6 +1,12 @@
 # Projekt butler{ .Project.Name }
 
-[Here](https://golang.org/pkg/text/template/) you can find an overview about all template features. We use a unique delimiter to avoid collision with existing template engines.
+[Here](https://golang.org/pkg/text/template/) you can find an overview about all template features. We use a unique delimiter to avoid collision with existing template engines. We use a unique delimiter to avoid collsion with existing template engines.
+
+## Delimiter
+
+```
+butler{ .Project.Name }
+```
 
 butler{ .Project.Description }
 <br>
