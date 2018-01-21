@@ -22,5 +22,9 @@ Email: butler{ .Vars.email }
 <b>Helper functions</b>
 <br>
 butler{ toCamelCase .Project.Name }
-
+<br>
+butler{ toPascalCase "foo-bar" }
+<br>
+butler{ toSnakeCase "foo-bar" }
+<br>
 <a href="mailto:butler{ .Vars.email }">Contact</a>
