@@ -7,7 +7,8 @@
 ```
 butler{ .Project.Name }
 ```
-
+<b>Default variables</b>
+<br>
 butler{ .Project.Description }
 <br>
 Date: butler{ .Date }
@@ -17,6 +18,9 @@ Year: butler{ .Year }
 Company: butler{ .Vars.company }
 <br>
 Email: butler{ .Vars.email }
-
+<br>
+<b>Helper functions</b>
+<br>
+butler{ toCamelCase .Project.Name }
 
 <a href="mailto:butler{ .Vars.email }">Contact</a>
