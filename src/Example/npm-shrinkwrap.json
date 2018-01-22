@@ -1,5 +1,5 @@
 {
-  "name": "Example",
+  "name": "butler{ .Project.Name }",
   "version": "0.0.0",
   "dependencies": {
     "@types/history": {

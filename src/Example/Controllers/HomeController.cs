@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Example.Controllers
+namespace butler{ .Project.Name }.Controllers
 {
     public class HomeController : Controller
     {
