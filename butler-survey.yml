@@ -12,4 +12,5 @@ questions:
     name: language
     message: "Choose your programming language:"
     options: ["c#", "go", "javascript"]
+    default: ["c#"]
 
