@@ -15,8 +15,8 @@ questions:
     message: "Choose a color:"
     options: ["red", "green", "yellow"]
   - type: multiselect
-    name: language
-    message: "Choose your programming language:"
+    name: languages
+    message: "Choose your favorite programming languages:"
     options: ["c#", "go", "javascript"]
     default: ["c#"]
 ```
@@ -34,7 +34,7 @@ questions:
 ```
 butler{getSurveyResult "drink"}
 butler{getSurveyResult "color"}
-butler{getSurveyResult "language"}
+butler{getSurveyResult "languages"}
 ```
 
 If you add a `multiselect` question your result will be joined with `,`
