@@ -10,4 +10,4 @@ butler{ .Project.Description }
 
 1. butler{getSurveyResult "drink"}
 2. butler{getSurveyResult "color"}
-3. butler{getSurveyResult "language" 0}
+3. butler{getSurveyResult "language"}
