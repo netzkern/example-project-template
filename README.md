@@ -9,3 +9,4 @@ butler{ .Project.Description }
 # Survey results
 
 1. butler{index .Survey "drink"}
+1. butler{index .Survey "color"}
