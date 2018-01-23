@@ -10,6 +10,7 @@ variables:
   email: info@netzkern.de
 ```
 
+## Custom variables
 You can specify custom variables in the `butler.yml` file. They can be accessed by `butler{ .Vars.company }`.
 
 ```yaml
@@ -17,29 +18,28 @@ variables:
   - email
 ```
 
-<br>
-<b>Default variables</b>
-<br>
-butler{ .Project.Name }
-<br>
-butler{ .Project.Description }
-<br>
-Date: butler{ .Date }
-<br>
-Year: butler{ .Year }
-<br>
-<b>Custom variables</b>
-<br>
-Company: butler{ .Vars.company }
-<br>
-Email: butler{ .Vars.email }
-<br>
-<b>Helper functions</b>
-<br>
-butler{ toCamelCase .Project.Name }
-<br>
-butler{ toPascalCase "foo-bar" }
-<br>
-butler{ toSnakeCase "foo-bar" }
-<br>
-<a href="mailto:butler{ .Vars.email }">Contact</a>
+## Default variables
+- Project name: butler{ .Project.Name }
+- Project Description: butler{ .Project.Description }
+- Current Date: butler{ .Date }
+- Current Year: butler{ .Year }
+
+## Custom variables
+- Company: butler{ .Vars.company }
+- Email: butler{ .Vars.email }
+## Helper functions
+- butler{ toCamelCase .Project.Name }
+- butler{ toPascalCase "foo-bar" }
+- butler{ toSnakeCase "foo-bar" }
+
+## Get survey results
+```
+butler{getSurveyResult "database"}
+```
+
+## Conditions
+```
+butler{if eq (getSurveyResult "database") "mongodb"}
+
+butler{end}
+```
