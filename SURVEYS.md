@@ -8,11 +8,31 @@ questions:
     message: "What is your favorite drink?"
     help: "Allowed character 0-9, A-Z, _-"
     required: true
+  - type: select
+    name: color
+    message: "Choose a color:"
+    options: ["red", "green", "yellow"]
+  - type: multiselect
+    name: language
+    message: "Choose your programming language:"
+    options: ["c#", "go", "javascript"]
+    default: ["c#"]
 ```
+
+**Configuration**
+- type: input, select, multiselect `string`
+- name: the id of your question `string`
+- message: the question `string`
+- options: `[]string`
+- default: depends on the type `string` or `[]string`
+- required: `boolean`
+- help: `string`
 
 **Access**
 ```
 butler{getSurveyResult "drink"}
+butler{getSurveyResult "color"}
+butler{getSurveyResult "language"}
 ```
 
 If you add a `multiselect` question your result will be joined with `,`
