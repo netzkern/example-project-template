@@ -10,5 +10,5 @@ butler{ .Project.Description }
 
 1. butler{getSurveyResult "drink"}
 2. butler{getSurveyResult "color"}
-3. butler{$a = getSurveyResult "language"} butler{join $a ", "}
+3. butler{getSurveyResult "language"}
 4. butler{getSurveyResult "database"}
