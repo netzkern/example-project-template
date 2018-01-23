@@ -4,3 +4,7 @@ questions:
     message: "What is your favorite drink?"
     help: "Allowed character 0-9, A-Z, _-"
     required: true
+  - type: select
+    name: color
+    message: "Choose a color:"
+    options: ["red", "green", "yellow"]
