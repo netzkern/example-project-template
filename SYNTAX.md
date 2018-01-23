@@ -1,4 +1,4 @@
-# Projekt butler{ .Project.Name }
+# Butler Syntax
 
 [Here](https://golang.org/pkg/text/template/) you can find an overview about all template features. We use a unique delimiter to avoid collsion with existing template engines.
 
