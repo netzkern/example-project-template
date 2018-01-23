@@ -8,4 +8,8 @@ questions:
     name: color
     message: "Choose a color:"
     options: ["red", "green", "yellow"]
-    default: red
+  - type: multiselect
+    name: language
+    message: "Choose your programming language:"
+    options: ["c#", "go", "javascript"]
+
