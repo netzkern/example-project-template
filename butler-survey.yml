@@ -13,4 +13,8 @@ questions:
     message: "Choose your programming language:"
     options: ["c#", "go", "javascript"]
     default: ["c#"]
-
+  - type: select
+    name: database
+    message: "Choose your database:"
+    options: ["mongodb", "mssql", "redis"]
+    required: true
