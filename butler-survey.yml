@@ -1,0 +1,6 @@
+questions:
+  - type: input
+    name: drink
+    message: "What is your favorite drink?"
+    help: "Allowed character 0-9, A-Z, _-"
+    required: true
