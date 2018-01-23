@@ -4,10 +4,8 @@
 
 ## Delimiter
 
-```yaml
-variables:
-  company: netzkern
-  email: info@netzkern.de
+```
+butler{<expr>} 
 ```
 
 ## Custom variables
@@ -15,7 +13,8 @@ You can specify custom variables in the `butler.yml` file. They can be accessed 
 
 ```yaml
 variables:
-  - email
+  company: netzkern
+  email: info@netzkern.de
 ```
 
 ## Default variables
