@@ -8,3 +8,4 @@ questions:
     name: color
     message: "Choose a color:"
     options: ["red", "green", "yellow"]
+    default: red
