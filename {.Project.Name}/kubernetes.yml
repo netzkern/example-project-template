@@ -19,7 +19,7 @@ contexts:
   name: dev-storage
 - context:
   name: exp-scratch
-butler{if eq getDatabase "mongodb"}
+butler{if eq getDb "mongodb"}
 - context:
   name: dev-mongodb
 butler{end}
