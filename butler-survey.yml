@@ -9,7 +9,7 @@ questions:
     message: "Choose a color:"
     options: ["red", "green", "yellow"]
   - type: multiselect
-    name: language
+    name: lang
     message: "Choose your programming language:"
     options: ["c#", "go", "javascript"]
     default: ["c#"]
