@@ -18,3 +18,8 @@ questions:
     message: "Choose your database:"
     options: ["mongodb", "mssql", "redis"]
     required: true
+    
+afterHooks:
+  - cmd: node
+    args: ["-v"]
+ 
