@@ -4,7 +4,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 butler{$id := uuid}
-Project("{butler{print uuid}}") = "Example", "src\butler{ .Project.Name }.csproj", "{butler{$id}}"
+Project("{butler{uuid}}") = "Example", "src\butler{ .Project.Name }.csproj", "{butler{$id}}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
