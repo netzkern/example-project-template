@@ -22,4 +22,7 @@ questions:
 afterHooks:
   - cmd: node
     args: ["-v"]
+  - cmd: npm
+    args: ["-v"]
+    enabled: eq getDb "mongodb"
  
