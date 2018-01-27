@@ -8,7 +8,7 @@ butler{ .Project.Description }
 
 # Survey results
 
-1. butler{getDrink}
+1. butler{getDrinkS}
 2. butler{getColor}
 3. butler{join getLang ", "}
 4. butler{getDb}
