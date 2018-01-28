@@ -14,3 +14,7 @@ butler{ .Project.Description }
 4. butler{getDb}
 5. butler{getDbPassword}
 6. butler{getPrintNode}
+
+## Custom variables
+
+- butler{ Vars.test }
