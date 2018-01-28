@@ -34,3 +34,5 @@ afterHooks:
     args: ["-v"]
     enabled: eq getDb "mongodb"
  
+ variables
+  test: fooBar
