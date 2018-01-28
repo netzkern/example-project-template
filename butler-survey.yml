@@ -25,7 +25,6 @@ questions:
   - type: confirm
     name: printNode
     message: "Should we print the Node Version?"
-    required: true
     
 afterHooks:
   - cmd: node
