@@ -30,7 +30,7 @@ questions:
 afterHooks:
   - cmd: node
     args: ["-v"]
-    enabled: printNode
+    enabled: getPrintNode
   - cmd: npm
     args: ["-v"]
     enabled: eq getDb "mongodb"
