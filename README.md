@@ -17,4 +17,4 @@ butler{ .Project.Description }
 
 ## Custom variables
 
-- butler{ Vars.test }
+- butler{ .Vars.test }
