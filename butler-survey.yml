@@ -18,9 +18,9 @@ questions:
     message: "Choose your database:"
     options: ["mongodb", "mssql", "redis"]
     required: true
-  - type: dbPassword
-    name: mongodbPassword
-    message: "Please enter a mongodb admin password"
+  - type: password
+    name: dbPassword
+    message: "Please enter a db password"
     required: true
     
 afterHooks:
