@@ -22,10 +22,15 @@ questions:
     name: dbPassword
     message: "Please enter a db password"
     required: true
+  - type: confirm
+    name: printNode
+    message: "Should we print the Node Version?"
+    required: true
     
 afterHooks:
   - cmd: node
     args: ["-v"]
+    enabled: printNode
   - cmd: npm
     args: ["-v"]
     enabled: eq getDb "mongodb"
