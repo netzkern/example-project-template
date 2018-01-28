@@ -18,7 +18,7 @@ questions:
     message: "Choose your database:"
     options: ["mongodb", "mssql", "redis"]
     required: true
-  - type: password
+  - type: dbPassword
     name: mongodbPassword
     message: "Please enter a mongodb admin password"
     required: true
