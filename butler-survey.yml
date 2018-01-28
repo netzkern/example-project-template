@@ -36,4 +36,3 @@ afterHooks:
  
 variables:
   test: fooBar
-  company: netzkern
