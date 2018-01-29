@@ -1,5 +1,5 @@
 {
-  "name": "butler{toCamelCase .Project.Name}",
+  "name": "butler{toCamelCase .Project.NameA}",
   "private": true,
   "version": "0.0.0",
   "devDependencies": {
