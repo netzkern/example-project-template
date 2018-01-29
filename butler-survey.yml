@@ -30,7 +30,6 @@ questions:
     
 afterHooks:
   - cmd: node
-    args: ["-v"]
     enabled: getPrintNode
   - cmd: npm
     args: ["-v"]
