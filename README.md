@@ -22,7 +22,7 @@ butler{ .Project.Description }
 
 ## Environment variables
 
-- butler{ env "test" }
+- butler{ env "BUTLER_CONFIG_URL" }
 
 ## Current cwd
 
