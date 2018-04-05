@@ -19,3 +19,11 @@ butler{ .Project.Description }
 ## Custom variables
 
 - butler{ .Vars.test }
+
+## Environment variables
+
+- butler{ env "test" }
+
+## Current cwd
+
+- butler{ cwd }
