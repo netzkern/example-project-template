@@ -27,3 +27,7 @@ butler{ .Project.Description }
 ## Current cwd
 
 - butler{ cwd }
+
+## Regex
+
+- butler{ regex "[0-9]+" .FindString "I'm 26 years old" }
