@@ -30,4 +30,4 @@ butler{ .Project.Description }
 
 ## Regex
 
-- butler{ regex "[0-9]+" .FindString "I'm 26 years old" }
+- butler{ regex ("[0-9]+") .FindString "I'm 26 years old" }
