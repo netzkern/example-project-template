@@ -1,6 +1,6 @@
 deprecated: false
 butlerVersion: ">=0.2.0"
-wedwedew
+
 questions:
   - type: input
     name: drink
