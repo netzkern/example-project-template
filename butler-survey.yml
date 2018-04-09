@@ -1,5 +1,5 @@
 deprecated: false
-butlerVersion: ^0.2.0
+butlerVersion: >=0.2.0
 
 questions:
   - type: input
