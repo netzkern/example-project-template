@@ -31,3 +31,8 @@ butler{ .Project.Description }
 ## Regex
 
 - butler{ (regex "[0-9]+").FindString "I'm 26 years old" }
+
+## Generators
+
+- butler{ randomInt 5 10 }
+- butler{ uuid }
