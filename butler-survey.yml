@@ -39,4 +39,4 @@ afterHooks:
  
 variables:
   test: fooBar
-  db: getDb
+  db: { getDb }
