@@ -20,6 +20,7 @@ butler{ .Project.Description }
 
 - butler{ .Vars.test }
 - butler{ .Vars.db }
+- butler{ .Vars.projectName }
 
 ## Environment variables
 
