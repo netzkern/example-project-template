@@ -39,4 +39,4 @@ afterHooks:
  
 variables:
   test: fooBar
-  db: { toUpperCase getDb }
+  db: "{ toUpperCase getDb }"
