@@ -40,3 +40,4 @@ afterHooks:
 variables:
   test: fooBar
   db: "{ toUpperCase getDb }"
+  projectName: "{ toUpperCase .Project.Name }"
