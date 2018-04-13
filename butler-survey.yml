@@ -41,8 +41,8 @@ afterHooks:
     enabled: eq getDb "mongodb"
     verbose: true
   - name: sleep 2 seconds
-    cmd: sleep
-    args: ["2"]
+    cmd: timeout
+    args: ["2", ">", "null"]
  
 variables:
   test: fooBar
