@@ -41,8 +41,8 @@ afterHooks:
     enabled: eq getDb "mongodb"
     verbose: true
   - name: sleep 3 seconds
-    cmd: timeout
-    args: ["/t 3"]
+    cmd: powershell
+    args: ["-command", "Start-Sleep -s 3"]
  
 variables:
   test: fooBar
