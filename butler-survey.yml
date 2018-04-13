@@ -1,5 +1,5 @@
 deprecated: false
-butlerVersion: ">=0.6.0"
+butlerVersion: ">=0.8.0"
 
 questions:
   - type: input
