@@ -30,10 +30,12 @@ questions:
     message: "Should we print the Node Version?"
     
 afterHooks:
-  - cmd: node
+  - name: print npm version
+    cmd: node
     args: ["-v"]
     enabled: getPrintNode
-  - cmd: npm
+  - name: print npm version
+    cmd: npm
     args: ["-v"]
     enabled: eq getDb "mongodb"
  
