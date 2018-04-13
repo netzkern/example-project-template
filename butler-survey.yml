@@ -34,10 +34,15 @@ afterHooks:
     cmd: node
     args: ["-v"]
     enabled: getPrintNode
+    verbose: true
   - name: print npm version
     cmd: npm
     args: ["-v"]
     enabled: eq getDb "mongodb"
+    verbose: true
+  - name: sleep 2 seconds
+    cmd: sleep
+    args: ["2"]
  
 variables:
   test: fooBar
