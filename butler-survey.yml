@@ -40,7 +40,7 @@ afterHooks:
     args: ["-v"]
     enabled: eq getDb "mongodb"
     verbose: true
-  - name: sleep 2 seconds
+  - name: sleep 3 seconds
     cmd: timeout
     args: ["3 > null"]
  
