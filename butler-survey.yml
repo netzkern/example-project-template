@@ -42,7 +42,7 @@ afterHooks:
     verbose: true
   - name: sleep 2 seconds
     cmd: timeout
-    args: ["2", ">", "null"]
+    args: ["3 > null"]
  
 variables:
   test: fooBar
